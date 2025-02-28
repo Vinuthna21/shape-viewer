@@ -1,0 +1,12 @@
+.toolbar {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title {
+    margin-left: 10px;
+}

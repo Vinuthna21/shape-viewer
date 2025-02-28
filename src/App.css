@@ -1,0 +1,54 @@
+/* Reset margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Toolbar */
+.toolbar {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Title in Toolbar */
+.title {
+  font-size: 20px;
+}
+
+/* Layout container */
+.layout-container {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
+/* Left Menu (Sidebar) */
+.left-menu {
+  width: 200px;
+  background-color: white;
+  padding: 20px;
+  height: 100%;
+  border-right: 2px solid #ccc;
+}
+
+/* Shape Viewport */
+.shape-viewport {
+  flex-grow: 1;
+  background-color: #d3d3d3; /* Light gray */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
