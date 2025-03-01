@@ -68,3 +68,38 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# 🖼️ Shape Viewer Project
+
+##  Overview
+The **Shape Viewer** project is a React-based application that allows users to load a `.shapefile`, parse its data, and render different shapes (rectangles and polygons) on a viewport. The application also supports **shape rotation** and allows easy testing of different shape configurations.
+
+---
+
+## ✅ **Completed Assignment Iterations**
+The project has successfully completed all assignment iterations, including:
+- **File Upload Feature:** Implemented file upload functionality to read shape data from a `.shapefile`.
+- **Shape Parsing & Rendering:** Parsed shape data and dynamically rendered **rectangles** and **polygons** on the viewport.
+- **Rotation Support:** Implemented **rotation transformation** for rectangles as specified in the requirements.
+- **Transformation Debugging:** Improved alignment issues to ensure correct shape positioning and rendering.
+
+## 🎯 **Bonus Features Implemented**
+The project also includes several **bonus features**, such as:
+- ✅ **Shape Rotation:** Rectangles now rotate at a specified angle.
+- ✅ **Viewport Adjustments:** Ensured correct placement and transformation of shapes.
+- ✅ **Improved Shape Parsing:** Enhanced polygon point extraction and validation for better accuracy.
+- ✅ **Error Handling:** Added debugging logs and error messages for invalid shapes.
+
+## ⚠️ **Known Issues & Limitations**
+Despite successful implementation, a few minor issues remain:
+-  **Rotation Alignment Issue:** 
+  - Rectangles rotate correctly, but slight **misalignment** may occur due to center positioning.
+  - Requires additional adjustments to fine-tune accuracy.
+
+  ## 🗂️ **Included Test Files**
+If testing is required with specific shape files, the following input files are included:
+- `sample-rotated.shapefile`
+- `my-shape-file.shapefile`
+- Additional test files can be referenced in this README.
+
